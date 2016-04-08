@@ -1,4 +1,4 @@
-Implementation of C function : printf
+#####Implementation of C function : printf
 
 ```c
 int  my_printf(char *format, ...);
@@ -16,7 +16,7 @@ Example with the file `test.c` given in test folder
 or `gcc test/test.c libmy_printf_'uname -m'-'uname -s'.so`
 `uname -m` and `uname -s` depends on your system
 
-###Syntax to format:
+####Syntax to format:
 
     % [flags] [width] [.precision] [length modifier] specifier type
 
@@ -53,7 +53,7 @@ will result to
 ```c
 2.00
 ```
-(For %f specifier type, precision number is used to display only `n` after the dot `n` of the float
+For %f specifier type, precision number is used to display only `n` after the dot `n` of the float
 To know more about the precision, please go there : http://man7.org/linux/man-pages/man3/sprintf.3.html
 
 ####Specifiers type:
