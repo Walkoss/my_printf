@@ -10,7 +10,7 @@ int  my_printf(char *format, ...);
 make
 `
 And you will get two libraries.
-Compile with it to use my_printf function.
+Compile with one of them to use my_printf function.
 Example with the file `test.c` given in test folder
 `gcc test/test.c libmy_printf_'uname -m'-'uname -s'.a`
 or `gcc test/test.c libmy_printf_'uname -m'-'uname -s'.so`
@@ -29,7 +29,7 @@ or `gcc test/test.c libmy_printf_'uname -m'-'uname -s'.so`
 
 ####Width:
 
-If defined, width allows you to print only `n` characters where n is equal to what you has assigned to width
+If defined, width allows you to print only `n` characters where n is equal to what you have assigned to width
 
 #####Example:
 ```c
@@ -42,7 +42,7 @@ will result to
 
 ####Precision:
 
-If defined, precision allows you to print only `n` characters of your variable where n is equal to what you has assigned to precision.
+If defined, precision allows you to print only `n` characters of your variable where n is equal to what you have assigned to precision.
 Precision number is define after a dot `.`
 
 #####Example:
