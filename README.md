@@ -74,9 +74,9 @@ To know more about the precision, please go there : http://man7.org/linux/man-pa
 | `n`        | Lenght of string                         |
 | `%`        | Escape `%` char                          |
 
-####Length:
+####Length Modifier:
 
-| Length | Type                  |
+| Length Modifier | Type                  |
 |--------|-----------------------|
 | `ll`   | `long long int` or `unsigned long long int` |
 | `l`    | `long int` or `unsigned long int`     |
